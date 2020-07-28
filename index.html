@@ -57,7 +57,7 @@
         <h1>Valha Devs</h1>
         <h2>Desarrollo de <span class="rotating">Sitios Web.</span></h2>
         <div class="actions">
-          <a href="https://www.instagram.com/valhadevs/" class="btn-services">Instagram</a>
+          <a href="https://www.instagram.com/valhadev/" class="btn-services">Instagram</a>
         </div>
       </div>
     </div>
@@ -126,7 +126,8 @@
             <div class="slider">
               <div class="slider-container">
                 <a
-                 title="Quienes Somos"
+                  
+                  title="Quienes Somos"
                   ><img
                     src="https://scontent.fres2-1.fna.fbcdn.net/v/t31.0-8/22384301_10210362496483518_5549705858279813428_o.jpg?_nc_cat=106&_nc_sid=09cbfe&_nc_ohc=-mO8eS7ZLiEAX_Vn7aE&_nc_ht=scontent.fres2-1.fna&oh=838ad452272f64318e72d2068ad10cd2&oe=5F434DBD"
                     class="card-img-top foto rounded mx-auto d-block"
@@ -211,7 +212,7 @@
             <div class="col">
               <a class="portfolio-item" style="background-image: url(img/portfolio-3.png);" href="https://valhadevs.github.io/Ej2/">
                  <div class="details">
-                  <h4>Ejemplo</h4>
+                  <h4>Pagina Web de Ejemplo</h4>
                    <span></span>
                 </div>
               </a>
@@ -320,7 +321,7 @@
                   <div class="text-center p-3 mb-2 containerbackground text-white">
                     <a
                       href="https://forms.gle/a1QUKU8E4kVCDmwx5"
-                      title="Logo de instagram"
+                      title="Logo de google docs"
                       ><img
                         src="img\docs.png"
                         class="icono"
@@ -357,9 +358,36 @@
             </div>
           
           </div>
-        </div>    
+        </div>  
+        <div class="col-md-5 col-md-push-2">
+          <div class="form">
+            <div id="sendmessage">Tu mensaje se ha enviado! </div>
+            <div id="errormessage"></div>
+            <form action="https://formspree.io/xaypazyj" method="POST">
+              <div class="form-group">
+                <input type="text" name="Nombre" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="Email" id="email" placeholder="Email" data-rule="email" data-msg="Ingresa un Correo Valido" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="Asunto" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres del tema" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="Mensaje" rows="5" data-rule="required" data-msg="Por favor escribe algo para nosotros" placeholder="Mensaje"></textarea>
+                <div class="validation"></div>
+              </div>
+              <div class="text-center"><button type="submit">Enviar mensaje</button></div>
+            </form>
+          </div>
+        </div>  
       </div>
+      
     </div>
+    
   </section>
 
   <!--==========================
