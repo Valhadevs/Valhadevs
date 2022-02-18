@@ -22,6 +22,9 @@ p {
   padding: 0;
   margin: 0 0 30px 0;
 }
+h1{
+  font-size: 50px;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
@@ -87,6 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   background: url(https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80) top center fixed;
   background-size: cover;
 }
+
 
 #hero .hero-logo {
   margin: 20px;
@@ -202,7 +206,9 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo h1 a, #header #logo h1 a:hover {
   color: #fff;
 }
-
+.container-header{
+  padding-top: 0 !important;
+}
 .img-logo{
   width: 20%;
   height: 20%;
@@ -471,6 +477,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-description {
   text-align: center;
   margin-bottom: 40px;
+  font-size: 13px;
 }
 
 .section-title-divider {
@@ -486,8 +493,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about {
   background: #fff;
   padding: 80px 0;
+  padding-top: 0;
 }
-
 #about .about-container {
   background: url() left;
   background-position: center;
@@ -532,14 +539,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 .slider{
   background-size: cover;
   background-position: center;
-  box-shadow: 6px 10px 8px -2px rgba(0, 0, 0, 0.9), 8px 6px 0px 2px rgba(0, 0, 0, 0.09);
-  max-height: 500px;
-  max-width: 500px;
+}
+.foto{
+  height: 600px;
+  object-fit: cover;
 }
 .stripe-container, .slider-container {
   display: flex;
   box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  
 }
 .stripe-container .card{
   width:30%;
@@ -552,6 +559,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
+  padding-bottom: 0;
 }
 
 #services .service-item {
@@ -652,6 +660,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio {
   background: #fff;
   padding: 80px 0;
+  display: grid;
+}
+.port{
+  min-width: 400px;
 }
 
 #portfolio .portfolio-item {
@@ -664,6 +676,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: table;
   overflow: hidden;
   margin-bottom: 30px;
+  border-radius: 3px;
 }
 
 #portfolio .portfolio-item .details {
@@ -711,7 +724,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
-
+.portfolio-container{
+  margin-left: 0;
+  margin-right: 0;
+  justify-self: center;
+}
 /* Testimonials Section
 --------------------------------*/
 #testimonials {
@@ -826,6 +843,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact {
   background: #f7f7f7;
   padding: 80px 0;
+  padding-top: 20px;
 }
 
 #contact .info {
@@ -862,7 +880,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 600;
   margin-bottom: 15px;
 }
-
+.text-area{
+  resize: none;
+}
 #contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
   display: block;
 }

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Valha Devs - Diseño y Desarrollo Web</title>
+  <title>elDev - Diseño y Desarrollo Web</title>
    <link rel="shortcut icon" href="img\logo.ico">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
@@ -50,11 +50,8 @@
   <section id="hero">
     <div class="hero-container">
       <div class="wow fadeIn">
-        <div class="hero-logo">
-          <img class="logo-inicio img-logo" src="img/logo.png" alt="Valha Devs">
-        </div>
 
-        <h1>Valha Devs</h1>
+        <h1>el<span class="rotating">Dev</span></h1>
         <h2>Desarrollo de <span class="rotating">Sitios Web.</span></h2>
         <div class="actions">
           <a href="https://www.instagram.com/valhadevs/" class="btn-services">Instagram</a>
@@ -80,11 +77,12 @@
           <li class="menu-active"><a href="#hero">Home</a></li>
            <li><a href="#about">Sobre Nosotros</a></li>
           <li><a href="#subscribe">Formulario</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li class="menu-has-children"><a href="">Servicios</a>
+          <li class="menu-has-children"><a href="#portfolio">Portfolio</a>
             <ul>
-              <li><a href="#">Paginas Webs</a></li>
-              <li><a href="#">Foto Producto</a></li>
+              <li><a href="#">Profesionales</a></li>
+              <li><a href="#">Restaurantes</a></li>
+              <li><a href="#">Construccion</a></li>
+              <li><a href="#">Pagina Personal</a></li>
             </ul>
           </li>
           <li><a href="#services">Contacto</a></li>
@@ -112,17 +110,10 @@
     </div>
     <div class="container wow fadeInUp">
       <div class="row">
-        <div class="col-sm container mt-5 mb-5">
+        <div class="col-sm container mb-5 img-container" style="min-width: 300px">
             <div class="slider">
               <div class="slider-container">
-                <a
-                  
-                  title="Quienes Somos"
-                  ><img
-                    src="img/SobreNosotros.jpg"
-                    class="card-img-top foto rounded mx-auto d-block"
-                    alt="Foto de Sebas"
-                  />
+                <a title="Quienes Somos"><img src="https://www.desophict.com/wp-content/uploads/2021/03/desarrollo-web.jpg" class="card-img-top foto rounded mx-auto d-block" alt="Foto de Sebas"/>
                 </a>
               </div>
             </div>
@@ -171,57 +162,56 @@
   Porfolio Section
   ============================-->
   <section id="portfolio">
-    <div class="container wow fadeInUp" style="min-height: 200px">
+    <div class="container wow fadeInUp portfolio-container" style="min-height: 200px">
       <div class="row">
         <div class="col-md-12">
           <h3 class="section-title">Portfolio</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">Alguno de nuestros proyectos.</p>
+          <p class="section-description">Nuestros proyectos</p>
         </div>
       </div>
 
       <div class="row">
-            <div class="col">
-              <a class="portfolio-item" style="background-image: url(img/portfolio-1.jpg);" href="https://valhadevs.github.io/AlphaWolves/">
+            <div class="col port port-item">
+              <a class="portfolio-item" style="background-image: url(https://profesionalesyempresarios.com/wp-content/uploads/2021/11/sociedad-profesional.jpg);" href="profesionales.html" target="_blank">
                 <div class="details">
-                  <h4>AlphaWolves</h4>
-                  <span>Pagina destinada a un Videojuego</span>
+                  <h4>Profesionales</h4>
+                  <span>Abogados, Contadores, Arquitectos</span>
                 </div>
               </a>
             </div>
 
-            <div class="col">
-              <a class="portfolio-item" style="background-image: url(img/portfolio-2.jpg);" href="http://www.gogoburgers.com.ar/">
+            <div class="col port">
+              <a class="portfolio-item" style="background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/thefork-portada-1634231101.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*);" href="http://www.gogoburgers.com.ar/">
                 <div class="details">
-                  <h4>Hamburgueseria</h4>
-                  <span></span>
+                  <h4>Restaurantes</h4>
+                  <span>Restaurants, Bares, Pubs</span>
                 </div>
               </a>
             </div>
 
-            <div class="col">
+            <div class="col port">
               <a class="portfolio-item" style="background-image: url(img/portfolio-3.jpg);" href="https://valhadevs.github.io/Ej2/">
                  <div class="details">
-                  <h4>Pagina Web de Ejemplo</h4>
-                   <span></span>
+                  <h4>Construccion</h4>
+                   <span>Ferreteria, </span>
                 </div>
               </a>
             </div>
-       </div>
-     </div>
-   </section>
- <!--==========================
-        
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolaio-4.jpg);" href="">
-            <div class="details">
-              <h4>Portfolio 4</h4>
-              <span>Alored dono par</span>
+            
+            <div class="col port">
+              <a class="portfolio-item" style="background-image: url(https://i.gyazo.com/82183f39286a042d4ca86818dc167bdf.png);" href="">
+              <div class="details">
+              <h4>Pagina Personal</h4>
+              <span>Portfolio Personal, Streamers,</span>
             </div>
           </a>
         </div>
-
+       </div>
+          
+     </div>
+  </section>
+<!--==========================
         <div class="col-md-3">
           <a class="portfolio-item" style="background-image: url(img/portfolaio-5.jpg);" href="">
             <div class="details">
@@ -277,7 +267,7 @@
       </div>
     </div>
     
-    <div class="container wow fadeInUp">
+   <!--  <div class="container wow fadeInUp">
              <div class="row justify-content-center">
                 <div class="col-8 col-sn-6 col-md-4 col-lg-3 nt-3">
                   <div class="text-center p-3 mb-2 containerbackground text-white">
@@ -322,7 +312,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           
     
   </section>
@@ -344,11 +334,11 @@
 
             <div>
               <i class="fa fa-envelope"></i>
-              <p><a href="mailto:ValhaDevs@gmail.com">ValhaDevs@gmail.com</a></p>
+              <p><a href="mailto:ValhaDevs@gmail.com">eldev.arg@gmail.com</a></p>
             </div>
            <div>
               <i class="fa fa-phone"></i>
-              <p>+54 9 3794 14-6608</p>
+              <p><a href="">+54 9 3794 14-6608</a></p>
             </div>
           </div>
         </div>  
@@ -370,7 +360,7 @@
                 <div class="validation"></div>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="Mensaje" rows="5" data-rule="required" data-msg="Por favor escribe algo para nosotros" placeholder="Mensaje"></textarea>
+                <textarea class="form-control text-area" name="Mensaje" rows="5" data-rule="required" data-msg="Por favor escribe algo para nosotros" placeholder="Mensaje"></textarea>
                 <div class="validation"></div>
               </div>
               <div class="text-center"><button type="submit">Enviar mensaje</button></div>
@@ -383,6 +373,26 @@
     
   </section>
 
+
+<html>
+  <body>
+    <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed JavaScript file -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "saabtian1",
+      });
+    </script>
+  </body>
+</html>
+
   <!--==========================
   Footer
 ============================-->
@@ -391,11 +401,11 @@
       <div class="row">
         <div class="col-md-12">
           <div class="copyright">
-            &copy; Copyright <strong>Valha Devs</strong>. All Rights Reserved
+            &copy; Copyright <strong>elDev</strong>. All Rights Reserved
           </div>
           <div class="credits">
         
-            Desarrolado por <a href="https://www.instagram.com/valhadevs/?hl=es-la">Valha Devs</a>
+            Desarrolado por <a href="https://www.instagram.com/valhadevs/?hl=es-la">elDev</a>
           </div>
         </div>
       </div>
